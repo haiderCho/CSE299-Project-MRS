@@ -1,0 +1,33 @@
+Start
+  |
+  v
+Obtain Access Token
+  |
+  v
+Extract Playlist Data
+  |    - Define `get_playlist_data` function
+  |    - Extract track info and audio features
+  |    - Store in DataFrame
+  v
+Create Combined Dataset
+  |    - Combine individual playlist DataFrames
+  v
+Feature Engineering
+  |    - Define `calculate_weighted_popularity`
+  |    - Normalize music features
+  v
+Content-Based Recommendations
+  |    - Define `content_based_recommendations`
+  v
+Hybrid Recommendations
+  |    - Define `hybrid_recommendations`
+  v
+Generate Recommendations
+  |    - Input song name
+  |    - Generate and display recommendations
+  v
+Save Recommendations to JSON
+  |    - Convert to dictionaries
+  |    - Save to JSON files
+  v
+End

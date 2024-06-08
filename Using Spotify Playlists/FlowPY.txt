@@ -1,0 +1,106 @@
++---------------------+
+| Start               |
++---------------------+
+          |
+          v
++---------------------+
+| Import Libraries    |
+| - json              |
+| - streamlit as st   |
+| - spotipy           |
++---------------------+
+          |
+          v
++-------------------------------+
+| Spotify API Credentials       |
+| - CLIENT_ID                   |
+| - CLIENT_SECRET               |
++-------------------------------+
+          |
+          v
++-------------------------------+
+| Initialize Spotify Client     |
+| - client_credentials_manager  |
+| - sp                          |
++-------------------------------+
+          |
+          v
++-------------------------------+
+| Define get_song_album_cover_  |
+| url Function                  |
+| - Search for song             |
+| - Return album cover URL      |
+| - Return default image if not |
+|   found                       |
++-------------------------------+
+          |
+          v
++-------------------------------+
+| Define recommend Function     |
+| - Filter recommended music    |
+|   based on selected song      |
++-------------------------------+
+          |
+          v
++-------------------------------+
+| st.header('Music Recommender  |
+| System')                      |
++-------------------------------+
+          |
+          v
++-------------------------------+
+| Load Music Data from JSON     |
+| File                          |
++-------------------------------+
+          |
+          v
++-------------------------------+
+| Extract List of Songs from    |
+| JSON                         |
+| - music_list                 |
++-------------------------------+
+          |
+          v
++-------------------------------+
+| st.selectbox('Type or select  |
+| a song from the dropdown',    |
+| music_list)                  |
+| - selected_song              |
++-------------------------------+
+          |
+          v
++-------------------------------+
+| if st.button('Show Song info')|
++-------------------------------+
+          |
+          v
++-------------------------------+
+| Call recommend Function       |
+| - recommended_music           |
++-------------------------------+
+          |
+          v
++-------------------------------+
+| Calculate Column Count        |
+| - col_count                   |
++-------------------------------+
+          |
+          v
++-------------------------------+
+| st.columns(col_count)         |
+| - cols                        |
++-------------------------------+
+          |
+          v
++-------------------------------+
+| for i, recommendation in      |
+| enumerate(recommended_music): |
+| - Get recommended song info   |
+| - Get album cover URL         |
+| - Display song name and image |
++-------------------------------+
+          |
+          v
++---------------------+
+| End                 |
++---------------------+
