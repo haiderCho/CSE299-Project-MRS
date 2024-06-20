@@ -8,9 +8,6 @@
 </p>
 </h2>
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-
-
 * [**Home**](https://github.com/haiderCho/CSE299-Project-MRS/wiki)
 * [**Team Info**](https://github.com/haiderCho/CSE299-Project-MRS/wiki/Team-Info)
 * [**Project Proposal**](https://github.com/haiderCho/CSE299-Project-MRS/wiki/Project-Proposal)
