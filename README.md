@@ -11,4 +11,11 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 
-## 📚 Features
+* [**Home**](https://github.com/haiderCho/CSE299-Project-MRS/wiki)
+* [**Team Info**](https://github.com/haiderCho/CSE299-Project-MRS/wiki/Team-Info)
+* [**Project Proposal**](https://github.com/haiderCho/CSE299-Project-MRS/wiki/Project-Proposal)
+* [**Methodology**](https://github.com/haiderCho/CSE299-Project-MRS/wiki/Methodology)
+* [**Evaluation**](https://github.com/haiderCho/CSE299-Project-MRS/wiki/Evaluation)
+* [**Limitations**](https://github.com/haiderCho/CSE299-Project-MRS/wiki/Limitations)
+* [**Future Work**](https://github.com/haiderCho/CSE299-Project-MRS/wiki/Future-Work)
+* [**References**](https://github.com/haiderCho/CSE299-Project-MRS/wiki/References)
